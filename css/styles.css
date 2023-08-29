@@ -38,7 +38,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 116.667%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ a {
   color: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 150%;
   letter-spacing: 0.32px;
 }
 
@@ -62,7 +62,7 @@ a {
 .link-address {
   color: var(--text);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 150%;
   letter-spacing: 0.32px;
 }
 
@@ -80,7 +80,7 @@ a {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 107.143%;
   letter-spacing: 1.12px;
 }
 
@@ -93,5 +93,21 @@ a {
 
 .hero-button:hover {
   background-color: var(--pressed-state);
+}
+
+/* Our advantages section */
+
+.advantages-heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.4px;
+}
+
+.advantages-paragraph {
+    color: var(--text);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.32px;
 }
 
