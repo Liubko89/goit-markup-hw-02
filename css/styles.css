@@ -64,19 +64,22 @@ a {
   color: var(--pressed-state);
 }
 
-.header-link-address {
-  color: var(--text);
+.address {
   font-style: normal;
+}
+
+.address-link {
+  color: var(--text);
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.32px;
 }
 
-.header-link-address:hover {
+.address-link:hover {
   color: var(--pressed-state);
 }
 
-.header-link-address:focus {
+.address-links:focus {
   color: var(--pressed-state);
 }
 
