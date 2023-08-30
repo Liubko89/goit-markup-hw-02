@@ -79,7 +79,7 @@ a {
   color: var(--pressed-state);
 }
 
-.address-links:focus {
+.address-link:focus {
   color: var(--pressed-state);
 }
 
