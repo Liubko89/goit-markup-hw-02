@@ -120,6 +120,16 @@ a {
 
 /* Our advantages section */
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .advantages-heading {
   color: var(--dark);
   font-size: 20px;
@@ -147,7 +157,7 @@ a {
   font-weight: 700;
   line-height: 111.111%;
   letter-spacing: 0.72px;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 .our-team-list {
